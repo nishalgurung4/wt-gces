@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<input type="text" placeholder="Enter something" />
+
+<script type="text/javascript">
+	document.querySelector("input").onkeydown = function (e) {
+		if (e.keyCode == 13) {
+			alert("thank you");
+		}
+		console.log(e);
+	};
+</script>
+</body>
+</html>

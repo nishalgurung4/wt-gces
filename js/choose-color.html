@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose Color</title>
+</head>
+<body>
+<label for="color">
+	Choose Color:
+	<input type="text" id="color" />
+</label>
+<button onclick="changeColor()">Change</button>
+<h2>Pokhara</h2>
+
+<script type="text/javascript">
+	function changeColor()
+	{
+		var color = document.getElementById("color").value;
+		document.querySelector("h2").style.fontSize = color+"px";
+	}
+
+</script>
+</body>
+</html>

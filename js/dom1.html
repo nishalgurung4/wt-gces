@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Title</title>
+</head>
+<body>
+<h1 id="h">My Header</h1>
+<h1 class="h">Class1</h1>
+<h1 class="h">Class2</h1>
+<h2 class="h a">class3</h2>
+<h1 id="test">Result:<span id="result"></span></h1>
+
+<script type="text/javascript">
+	var c1 = document.querySelectorAll(".h")[0];
+	console.log(c1.textContent);
+	document.getElementById("result").textContent = c1.textContent;
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<a href="www.google.com" id="google" data-size="5">click here</a>
+	<script type="text/javascript">
+		var a = document.getElementById("google");
+		console.log(a.getAttribute("href"));
+		a.setAttribute("href", "www.youtube.com");
+		console.log(a.getAttribute("href"));
+		console.log(a.href);
+		a['data-size']= "abc.com";
+	</script>
+</body>
+</html>

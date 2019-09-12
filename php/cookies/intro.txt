@@ -1,0 +1,3 @@
+Cookie is often used to identify a user.
+A cookie is a small file that the server embeds on the
+user's computer. With php, you can both create and retrieve cookie values.
